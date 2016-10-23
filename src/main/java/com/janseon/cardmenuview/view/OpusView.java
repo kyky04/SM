@@ -25,7 +25,7 @@ public class OpusView extends BaseCardLayout {
         int pad = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 15f, getResources().getDisplayMetrics());
         txt_title.setPadding(pad, pad, pad, pad);
         txt_title.setGravity(Gravity.CENTER_HORIZONTAL);
-        txt_title.setText("Gallery Sekolah");
+        txt_title.setText("Gallery ");
         addView(txt_title, LayoutParams.MATCH_PARENT, LayoutParams.WRAP_CONTENT);
 
         //super.findViews();
